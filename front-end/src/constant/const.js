@@ -1,0 +1,3 @@
+export const LOADING = 'LOADING'
+export const LOGIN_DATA = 'LOGIN_DATA'
+export const LOGINDATA_TOTAL_CONNT = 'LOGINDATA_TOTAL_CONNT'

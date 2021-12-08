@@ -1,0 +1,31 @@
+.profile {
+  h1, h2 {
+    text-align: center;
+    padding: 40px;
+  }
+  p {
+    text-align: center;
+  }
+  .purchase-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
+
+.profile-spinner {
+  width: 4rem!important;
+  height: 4rem!important;
+  margin-top: 100px;
+}
+
+.profile-loading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.purchases-placeholder {
+  text-align: center;
+  opacity: 0.6;
+}
