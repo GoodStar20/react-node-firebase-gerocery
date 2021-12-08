@@ -124,12 +124,12 @@ export class FirebaseService implements OnModuleInit {
 
   onModuleInit(): void {
     this.app = initializeApp({
-      apiKey: 'AIzaSyDqb4OamY8AxPQV1QLqThBTmBb9OQy8DuA',
-      authDomain: 'grocery-store-c9de1.firebaseapp.com',
-      projectId: 'grocery-store-c9de1',
-      storageBucket: 'grocery-store-c9de1.appspot.com',
-      messagingSenderId: '558624936730',
-      appId: '1:558624936730:web:259a17bee12907933f52a3',
+      apiKey: '',
+      authDomain: '',
+      projectId: '',
+      storageBucket: '',
+      messagingSenderId: '',
+      appId: '',
     });
     this.db = getFirestore(this.app);
   }
